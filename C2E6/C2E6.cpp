@@ -8,6 +8,8 @@ using namespace std;
 int main()
 {
     double payAmount = 2200.0, payPeriods = 26, annualPay;
+    cout << "Please state your amount of pay, then the number of pay periods per year:" << endl;
+        cin >> payAmount >> payPeriods;
     annualPay = payAmount * payPeriods;
     cout << fixed << setprecision(1) << "The total annual pay is " << annualPay << endl;
 }
